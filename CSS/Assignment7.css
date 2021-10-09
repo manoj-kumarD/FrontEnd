@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+body{
+    background-image: linear-gradient(black,darkblue);
+}
+.container{
+    border: 2px inset white;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    left: 230px;
+    border-radius: 50px;
+}
+.label-name{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left: 150px;
+}
+.fname,.phone{
+   
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    margin-top:20px;
+    margin-left: 140px;
+    padding: 8px;
+}
+.phone{
+    margin-left: 100px;
+}
+.male,.female{
+    color: white;
+    font-size: 25px;
+}
+
+.Gender{
+   
+    margin-left:250px ;
+}
+.dob{
+    margin-left:200px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.reset{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 25px;
+}

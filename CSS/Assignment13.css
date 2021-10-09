@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+.container{
+   
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+    background-color:lightgreen;
+}
+.container div{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.box1,.box2,.box3,.box4{
+    margin-left: 50px;
+    height: 25px;
+}
+.box2{
+    margin-left: 63px;
+}
+.box3{
+    margin-left: 150px;
+}
+.box4{
+    margin-left: 70px;
+}
+.container input[type='button']{
+    height: 30px;
+}

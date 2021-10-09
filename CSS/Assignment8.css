@@ -1,0 +1,25 @@
+table,tr,td{
+   
+    border-collapse:collapse ;
+    padding: 15px;
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th{
+    background-color: darkred;
+    height: 50px;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(240, 59, 59);
+}
+tr:nth-child(odd){
+    background-color: rgb(235, 229, 229);
+}
+tr:hover{
+    background-color: white;
+    font-size: 20px;
+}
