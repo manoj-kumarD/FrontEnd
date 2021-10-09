@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+     
+        
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="">fname</label>
+        <input type="text" value="" id="fname">
+        <label for="">lname</label>
+        <input type="text" value="" id="lname">
+        <input type="button" value="click" onclick="disp()" >
+        <input type="text" value="" id="fullname">
+    </form>
+  <script>
+    function disp() {
+        var name1= document.getElementById('fname').value;
+        var name2= document.getElementById('lname').value;
+        document.getElementById('fullname').value=name1+name2
+     console.log(name1);
+     console.log(name2);
+    }
+  </script>
+</body>
+
+</html>

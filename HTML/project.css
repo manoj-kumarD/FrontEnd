@@ -1,0 +1,197 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #2874f0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+header>div{
+    color: white;
+    font-family: cursive;
+    margin-left: 200px;
+    padding-top: 5px;
+  
+}
+header .logo{
+    width: 150px;
+    height: 30px;
+}
+.plus{
+    color: yellow;
+    font-family: cursive;
+}
+header input[type="search"]{
+   position: relative;
+   height: 30px;
+   width: 400px;
+   bottom:50px;
+   left: 180px;
+}
+header input[type="button"],header select{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    bottom:50px;
+    left: 220px;
+ }
+ header select{
+    position: relative;
+    left: 240px;
+ }
+
+.cart i{
+    position: relative;
+    border-radius: 100%;
+    height: 30px;
+    width: 200px;
+    bottom:80px;
+    left: 880px;
+    font-size: 25px;
+    color: white;
+}
+
+nav{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #e9f2e9;
+}
+nav div{
+   width: 100px;
+}
+nav div img{
+    border-radius: 100%;
+    width: 90%;
+    padding: 5px;
+}
+nav a,main a,header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav span{
+    margin-left: 17px;
+    font-family: cursive;
+}
+.center_image,main,.ads,.adds{
+    position: relative;
+    top: 220px;
+}
+.center_image img{
+    width: 100%;
+    height: 400px;
+}
+main{
+   height: 310px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+main>div{
+    height: 400px;
+    width: 200px;
+}
+main img{
+    height: 200px;
+    width: 220px;
+    
+}
+.info{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.buy{
+    color: darkgreen;
+    margin-left: 40px;
+}
+.cost{
+    color: gray;
+    margin-left: 20px;
+}
+.info1{
+    margin-left: 30px;
+}
+.ads,.adds{
+    height: 300px;
+    display: flex;
+}
+.ads{
+    margin-top: 20px;
+}
+.ads div,.adds div{
+    height: 300px;
+}
+.ads1{
+    flex-grow: 6;
+}
+.ads img,.adds img{
+    height: 300px;
+    width: 440px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.adds img{
+   margin-top: 10px;
+}
+footer{
+    margin-top:240px ;
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    background-color: #172337;
+}
+footer>div{
+    height: 250px;
+    width: 280px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+.foot_contianer{
+    width: 150px;
+    
+}
+.footer_head,.footer_head1{ 
+    margin-left: 40px;
+    color: gray;
+}
+.footer_head1{ 
+    margin-left: 10px;
+}
+footer a,footer li,.last_cont{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.mail{
+    margin-top: 10px;
+}
+.last_container{
+    border-top: 1px solid white;
+    height: 55px;
+    display: flex;
+    background-color: #172337;
+}
+.last_container a{
+    text-decoration: none;
+}
+.last_container>div{
+    width: 200px;
+    height: 10px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.last_sub i{
+   font-size: 20px;
+   color: gold;
+   padding-right: 15px;
+}
